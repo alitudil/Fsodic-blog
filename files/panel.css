@@ -1,0 +1,98 @@
+body {
+margin:0;
+padding:0;
+color:#000;
+background:#fff;
+font-family:Arial;
+font-size:11px;
+}
+a {
+color:#009;
+text-decoration:none;
+}
+#fs-header {
+margin:0;
+padding:5px 0 0 0;
+text-align:center;
+background:#07a;
+border-bottom:3px solid #343487;
+}
+#fs-navigation {
+margin:0;
+padding:5px;
+background:#343434;
+}
+#fs-navigation span {
+margin:0 2px;
+}
+#fs-navigation span a {
+color:#fff;
+}
+#fs-content, .fs-main {
+margin:0;
+padding:0;
+}
+#fs-content h2, .fs-main h3 {
+margin:0;
+padding:7px;
+color:#efefff;
+text-align:center;
+}
+.fs-main h3 {
+background:#414141;
+}
+#fs-content h2 {
+background:#343434;
+}
+.fs-main h4 {
+color:#666;
+padding:2px;
+margin:0;
+}
+.fs-main li {
+margin:1px;
+padding:4px;
+list-style:none;
+border:1px solid #ddd;
+}
+.fs-text, .fs-textarea, .fs-select {
+border:1px solid #000;
+color:#666;
+width:100%;
+margin:auto;
+padding:2px;
+}
+.fs-sub {
+text-align:center;
+}
+.fs-btn {
+margin:2px;
+padding:3px;
+width:40%;
+border:2px solid #000;
+background:#07a;
+color:#ff0;
+}
+#fs-footer {
+margin:0;
+padding:7px;
+text-align:center;
+background:#bdbdbd;
+border-top:3px solid #343487;
+}
+li.fs-suc, li.fs-err, .fs-war {
+margin:0;
+padding:4px;
+list-style:none;
+}
+.fs-war {
+background:#dd7311;
+}
+li.fs-suc {
+background:#77bd7f;
+color:#090;
+}
+li.fs-err {
+background:#edb0b0;
+color:#900;
+}

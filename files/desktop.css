@@ -1,0 +1,109 @@
+body {
+background:#f8f8f8;
+margin:0;
+padding:0;
+color:#000;
+}
+a {
+color:#090;
+text-decoration:none;
+}
+#fs-header {
+background:#090;
+padding:5px;
+margin:0;
+font-weight:bold;
+text-align:center;
+}
+.fs-heading a {
+color:#fff;
+text-shadow:1px 1px 1px #000;
+font-size:28px;
+}
+.fs-description {
+font-size:18px;
+color:#ff0;
+}
+.fs-heading, .fs-description {
+padding:5px;
+margin:0;
+}
+#fs-page, #fs-page-btm {
+margin:0;
+padding:5px;
+text-align:center;
+background:#060;
+}
+#fs-page a, #fs-page-btm a {
+color:#fff;
+}
+.fs-post {
+margin:10px;
+padding:0;
+border:1px solid #dedede;
+}
+.fs-title {
+margin:0;
+padding:4px;
+text-align:center;
+background:#088008;
+}
+.fs-title a {
+color:#ff0;
+}
+.fs-post-date, .fs-post-foot {
+margin:0;
+padding:3px;
+}
+.fs-post-content {
+padding:3px;
+text-align:justify;
+}
+#fs-content, #fs-sidebar {
+margin:10px;
+padding:0;
+border:1px solid #dedede;
+}
+#fs-content {
+float:left;
+width:60%;
+}
+#fs-sidebar {
+float:right;
+width:35%
+}
+#fs-pagination {
+margin:10px;
+padding:3px;
+text-align:center;
+border:1px dashed #cecece;
+}
+#fs-sidebar h3 {
+background:#090;
+padding:5px;
+margin:0;
+text-align:center;
+color:#fff;
+}
+#fs-sidebar li {
+border:1px solid #dadada;
+margin:1px;
+padding:4px;
+list-style:none;
+}
+#fs-footer {
+margin:0;
+clear:both;
+padding:0;
+border-top:3px solid #333;
+background:#bdbdbd;
+}
+.fs-footing {
+text-align:center;
+margin:0;
+padding:5px;
+}
+img {
+max-width:100%;
+max-height:120px;
+}
