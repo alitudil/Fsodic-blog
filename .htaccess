@@ -1,0 +1,10 @@
+ErrorDocument 404 /index.php?fs=404
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-z0-9-]+)$ index.php?fs=post&id=$1 [L]
+RewriteRule ^category/([a-z0-9-]+)/([0-9]+)$ index.php?fs=category&id=$1&no=$2 [L]
+RewriteRule ^page/([a-z0-9-]+)$ index.php?fs=page&id=$1 [L]
+RewriteRule ^no/([0-9]+)$ index.php?no=$1 [L]
+
+RewriteRule ^panel.php(.*)$ index.php?panel&fs=$1 [QSA]
